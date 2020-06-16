@@ -1,0 +1,196 @@
+<!--suppress XmlDuplicatedId -->
+<template type="text/template" id="tpl-mibboform">
+
+        <label for="field-{{key}}">{{label}}</label>
+        <input type="text" name="form[{{key}}]" id="field-{{key}}" {{controlattr}}>
+
+</template>
+
+<template type="text/template" id="tpl-mibboform-text">
+    <label for="field-{{key}}">{{label}}</label>
+    <input type="text" name="form[{{key}}]" id="field-{{key}}" {{controlattr}} value="{{value}}">
+</template>
+
+<template type="text/template" id="tpl-mibboform-paragraph">
+    <label for="field-{{key}}">{{label}}</label>
+    <textarea class="Form-control" name="form[{{key}}]" id="field-{{key}}" {{controlattr}}>{{value}}</textarea>
+</template>
+
+
+<template type="text/template" id="tpl-mibboform-date">
+    <label for="field-{{key}}">{{label}}</label>
+    <input type="date" name="form[{{key}}]" id="field-{{key}}" {{controlattr}} value="{{value}}">
+</template>
+
+<template type="text/template" id="tpl-mibboform-number">
+    <label for="field-{{key}}">{{label}}</label>
+    <input type="number" name="form[{{key}}]" id="field-{{key}}" {{controlattr}} value="{{value}}">
+</template>
+
+<template type="text/template" id="tpl-mibboform-separator">
+   <div class="Form-separator"> <hr> {{label}} </div>
+</template>
+
+<template type="text/template" id="tpl-mibboform-select">
+        <label for="field-{{key}}">{{label}}</label>
+        <select name="form[{{key}}]" id="field-{{key}}" {{controlattr}}></select>
+</template>
+
+<template type="text/template" id="tpl-mibboform-boolean">
+        <label for="field-{{key}}">{{label}}</label>
+        <select name="form[{{key}}]" id="field-{{key}}" {{controlattr}}>
+            <option value="true" {{attr#selected|value|true}}>oui</option>
+            <option value="false" {{attr#selected|value|falsy}}>non</option>
+        </select>
+</template>
+
+<template type="text/template" id="tpl-mibboform-choicelist">
+
+        <span class="Form-label">{{label}}</span>
+        <div id="field-{{key}}" class="Form-control"></div>
+
+</template>
+
+<template type="text/template" id="tpl-mibboform-choicelist--item">
+    <div class="CheckBox" data-key="{{key}}">
+        <label> <input type="checkbox" name="form[{{key}}][]" value="{{id}}" {{attr#checked|selected|true}}>
+            {{label}}</label>
+    </div>
+</template>
+
+<template type="text/template" id="tpl-mibboform-gallery">
+    <span class="Form-label" for="field-{{key}}">{{label}}</span>
+    <div class="Form-control" {{controlattr}}>
+        <button type="button" class="button Form-addFile js-addFile" data-url="{{uploadUrl}}" title="Envoyer un fichier" data-key="{{key}}">
+            <svg width="16" height="16" viewBox="0 0 24 24" style="vertical-align: center">
+                <title>common-file-text-add</title><g><circle class="a" cx="17.25" cy="17.25" r="6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></circle><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M17.25 14.25v6"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14.25 17.25h6"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h10.5"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 11.25h6"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 15.75H7.5"></path><path class="a" d="M7.5 20.25H2.25a1.5 1.5 0 0 1-1.5-1.5V2.25a1.5 1.5 0 0 1 1.5-1.5h10.629a1.5 1.5 0 0 1 1.06.439l2.872 2.872a1.5 1.5 0 0 1 .439 1.06V7.5" fill="none" stroke="currentColor"
+
+            </g>
+            </svg>Ajouter un fichier
+        </button>
+        <br><br>
+        <div class="Form-images">
+
+        </div>
+    </div>
+</template>
+
+<template type="text/template" id="tpl-mibboform-image">
+    <span class="Form-label" for="field-{{key}}">{{label}}</span>
+    <div class="Form-control" {{controlattr}}>
+        <button type="button" class="button Form-addFile js-addFile" data-url="{{uploadUrl}}" title="Envoyer un fichier" data-key="{{key}}">
+
+            <svg width="16" height="16" viewBox="0 0 24 24" style="vertical-align: center">
+                <title>common-file-text-add</title><g><circle class="a" cx="17.25" cy="17.25" r="6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></circle><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M17.25 14.25v6"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14.25 17.25h6"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h10.5"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 11.25h6"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 15.75H7.5"></path><path class="a" d="M7.5 20.25H2.25a1.5 1.5 0 0 1-1.5-1.5V2.25a1.5 1.5 0 0 1 1.5-1.5h10.629a1.5 1.5 0 0 1 1.06.439l2.872 2.872a1.5 1.5 0 0 1 .439 1.06V7.5" fill="none" stroke="currentColor"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+            Ajouter le fichier
+        </button>
+        <br><br>
+
+        <div class="Form-images">
+
+        </div>
+    </div>
+</template>
+
+<template type="text/template" id="tpl-mibboform-image-item">
+    <div class="Form-thumb" data-filename="{{name}}" data-uniqId="{{uniqId}}">
+        <button type="button" class="tips js-removeFile Form-removeFile" data-url="json/{{deleteUrl}}" title="Supprimer le fichier {{name}}"
+                 data-image="{{name}}" data-key="{{key}}"  data-uniqId="{{uniqId}}">
+            <svg  width="100%" height="100%" viewBox="0 0 24 24"><title>common-file-text-remove</title><g>
+                <circle class="a" cx="17.25" cy="17.25" r="6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round">
+
+                </circle>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M19.5 15L15 19.5"></path>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M15 15l4.5 4.5"></path>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h10.5"></path>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M3.75 11.25h6"></path>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M3.75 15.75H7.5"></path>
+                <path class="a" d="M7.5 20.25H2.25a1.5 1.5 0 0 1-1.5-1.5V2.25a1.5 1.5 0 0 1 1.5-1.5h10.629a1.5 1.5 0 0 1 1.06.439l2.872 2.872a1.5 1.5 0 0 1 .439 1.06V7.5"
+                      fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            </svg>
+
+        </button>
+        <button type="button" class="tips js-editFile Form-editFile" data-url="{{actionUrl}}" title="éditer le titre et la légende du fichier {{name}}"
+                data-image="{{name}}" data-key="{{key}}"  data-uniqId="{{uniqId}}" >
+            <svg viewBox="0 0 24 24" width="100%" height="100%"><g><path class="a" d="M22.63 14.87L15 22.5l-3.75.75.75-3.75 7.63-7.63a2.114 2.114 0 0 1 2.992 0l.008.008a2.114 2.114 0 0 1 0 2.992z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h10.5"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 11.25h10.5"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 15.75H9"></path><path class="a" d="M7.5 20.25H2.25a1.5 1.5 0 0 1-1.5-1.5V2.25a1.5 1.5 0 0 1 1.5-1.5h10.629a1.5 1.5 0 0 1 1.06.439l2.872 2.872a1.5 1.5 0 0 1 .439 1.06V8.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+
+        </button>
+
+        <img src="{{path}}" title="{{name}}">
+        <span class="Form-imagename" title="{{name}}">{{name}} </span>
+        <div class="Form-imageinfos">
+            <div hidden> uniqId : {{uniqId}}</div>
+            <div> Titre : <span data-bind="title">{{title}}</span></div>
+            <div> Légende : <span data-bind="legend">{{legend}}</span></div>
+        </div>
+    </div>
+
+</template>
+
+
+<template type="text/template" id="tpl-mibboform-filelist">
+    <span class="Form-label" for="field-{{key}}">{{label}}</span>
+    <div class="Form-control" {{controlattr}}>
+        <button type="button" class="button Form-addFile js-addFile" data-url="{{uploadUrl}}" title="Envoyer un fichier" data-key="{{key}}">
+            <img src="../../plugin/system/file_manager/img/document--plus.png" alt="Ajouter un fichier">
+            Ajouter un fichier
+        </button>
+        <br><br>
+        <div class="Form-images">
+
+        </div>
+    </div>
+</template>
+
+
+<template type="text/template" id="tpl-mibboform-file">
+    <span class="Form-label" for="field-{{key}}">{{label}}</span>
+    <div class="Form-control" {{controlattr}}>
+        <button type="button" class="button Form-addFile js-addFile" data-url="{{uploadUrl}}" title="Envoyer un fichier" data-key="{{key}}">
+            <img src="../../plugin/system/file_manager/img/document--plus.png" alt="Ajouter un fichier">
+            Ajouter le fichier
+        </button>
+        <br><br>
+
+        <div class="Form-images">
+
+        </div>
+    </div>
+</template>
+
+<template type="text/template" id="tpl-mibboform-file-item">
+    <div class="Form-thumb" data-filename="{{name}}" data-uniqId="{{uniqId}}">
+        <button type="button" class="tips js-removeFile Form-removeFile" data-url="json/{{deleteUrl}}" title="Supprimer le fichier {{name}}"
+                data-image="{{name}}" data-key="{{key}}"  data-uniqId="{{uniqId}}">
+            <svg  width="100%" height="100%" viewBox="0 0 24 24"><title>common-file-text-remove</title><g>
+                <circle class="a" cx="17.25" cy="17.25" r="6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round">
+
+                </circle>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M19.5 15L15 19.5"></path>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M15 15l4.5 4.5"></path>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h10.5"></path>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M3.75 11.25h6"></path>
+                <path class="a" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" d="M3.75 15.75H7.5"></path>
+                <path class="a" d="M7.5 20.25H2.25a1.5 1.5 0 0 1-1.5-1.5V2.25a1.5 1.5 0 0 1 1.5-1.5h10.629a1.5 1.5 0 0 1 1.06.439l2.872 2.872a1.5 1.5 0 0 1 .439 1.06V7.5"
+                      fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            </svg>
+        </button>
+        <button type="button" class="tips js-editFile Form-editFile" data-url="{{actionUrl}}" title="éditer le titre et la légende du fichier {{name}}"
+                data-image="{{name}}" data-key="{{key}}"  data-uniqId="{{uniqId}}">
+            <svg viewBox="0 0 24 24" width="100%" height="100%"><g><path class="a" d="M22.63 14.87L15 22.5l-3.75.75.75-3.75 7.63-7.63a2.114 2.114 0 0 1 2.992 0l.008.008a2.114 2.114 0 0 1 0 2.992z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h10.5"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 11.25h10.5"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 15.75H9"></path><path class="a" d="M7.5 20.25H2.25a1.5 1.5 0 0 1-1.5-1.5V2.25a1.5 1.5 0 0 1 1.5-1.5h10.629a1.5 1.5 0 0 1 1.06.439l2.872 2.872a1.5 1.5 0 0 1 .439 1.06V8.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+
+        </button>
+        <i class="Form-filelogo">
+            <svg viewBox="0 0 24 24" width="36" height="36"><g><path class="a" d="M22.5 21.75a1.5 1.5 0 0 1-1.5 1.5H3a1.5 1.5 0 0 1-1.5-1.5V2.25A1.5 1.5 0 0 1 3 .75h15.045a1.5 1.5 0 0 1 1.048.426l2.954 2.883a1.5 1.5 0 0 1 .453 1.074z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6.045 8.25h12"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6.045 12.75h12"></path><path class="a" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6.045 17.25h6"></path></g></svg>
+        </i>
+        <span class="Form-filename">{{name}} </span>
+        <div class="Form-imageinfos">
+            <div hidden> uniqId : {{uniqId}}</div>
+            <div> Titre : <span data-bind="title">{{title}}</span></div>
+            <div> Légende : <span data-bind="legend">{{legend}}</span></div>
+        </div>
+    </div>
+</template>

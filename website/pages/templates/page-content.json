@@ -1,0 +1,11 @@
+{
+  "fields": [
+     {"key":"pageTitle","label":"Titre de page","type":"text","validators":["mandatory"]}
+    ,{"key":"pageTagLine","label":"Tag line de la page","type":"text"}
+    ,{"key":"pageSummary","label":"Résumé de la page","type":"paragraph"}
+    ,{"key":"PageParagraph1Title","label":"Titre 1er paragraphe","type":"text"}
+    ,{"key":"PageParagraph1Content","label":"Contenu 1er paragraphe","type":"paragraph"}
+    ,{"key":"PageParagraph2Title","label":"Titre 2eme paragraphe","type":"text"}
+    ,{"key":"PageParagraph2Content","label":"Contenu 2eme paragraphe","type":"paragraph"}
+  ]
+}

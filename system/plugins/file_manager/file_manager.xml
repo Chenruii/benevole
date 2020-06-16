@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin engine="1.0">
+	<version>1.1</version>
+	<categorie>mibbo_website</categorie>
+	<title>
+		<fr>Gestionnaire de fichiers</fr>
+		<en>Files manager</en>
+	</title>
+	<description>
+		<fr>Gérer les fichiers du site.</fr>
+		<en>Manage the Files</en>
+	</description>
+</plugin>

@@ -1,0 +1,167 @@
+
+.Form-field{
+    margin-bottom: .25rem;
+    width: 55rem;
+    box-sizing: border-box;
+}
+
+
+.Form-field > label,.Form-label{
+    display: inline-block;
+    width: 12rem;
+    margin-right: .5rem;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+
+.acp-form .Form-field{
+    width: auto;
+}
+
+.acp-form .Form-field > label,.acp-form  .Form-label{
+    min-width: 5rem;
+}
+
+ .Form-field.Form-field--mandatory > label:after, .Form-field.Form-field--mandatory .Form-label:after{
+    content: " * ";
+    color: red;
+    font-weight: 600;
+}
+
+.Form-field > input,.Form-field > textarea,.Form-field > select,.Form-control,.multiselect-input,.cke,.ck-editor, .Form-images  {
+    box-sizing: border-box;
+    display: inline-block;
+    width: calc( 100% - 13rem);
+    padding: .5rem;
+    border: 1px #ccc solid;
+    min-height: 1.5rem;
+    vertical-align: middle;
+}
+.ck-editor{
+    width: calc( 100% - 13rem) !important;
+
+}
+
+.ck-editor__editable {
+    min-height: 10rem !important;
+}
+
+.multiselect-input{
+    /*width: 20rem !important;*/
+}
+
+
+.Form-field--submit{
+    text-align: center;
+    padding-left:12rem;
+    margin-bottom: 3rem;
+}
+
+.Form-help{
+    display: block;
+    color: #8a8a8a;
+    margin-left: 12.5rem;
+}
+
+.CheckBox{
+    display: inline-block;
+    min-width: 6rem;
+    margin: .25rem;
+}
+
+.CheckBox [type="checkbox"]{
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.Form-thumb{
+    position: relative;
+    border: 1px #ccc solid;
+    padding: 2px ;
+    background: #fff;
+}
+.Form-thumb:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.Form-thumb img{
+    height: 10rem;
+    width: auto;
+    max-width: 100%;
+    min-height: 2rem;
+}
+
+.Form-removeFile,.Form-addFile, .Form-editFile{
+    padding: 0;
+    background: 0;
+    cursor: pointer;
+    border: 0;
+}
+
+.Form-removeFile,.Form-editFile{
+    position: absolute;
+    background: rgba(255,255,255,.5);
+    top:2px;
+    right: 2px ;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.Form-editFile{
+    right: calc(2rem + 6px) ;
+}
+
+.Form-imagename{
+    position: absolute;
+    background: rgba(255,255,255,.5);
+    padding: .2rem;
+    top: 5px ;
+    left: 2px ;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.Form-imageinfos{
+
+}
+
+
+.Form-removeFile img,.Form-editFile img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.MibboTable{
+width: 100%;
+}
+.MibboTable th, .MibboTable td{
+    padding: .2rem .75rem;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+.MibboTable th a{
+    vertical-align: sub;
+}
+.Link svg{
+    vertical-align: middle;
+    margin-right: .25rem;
+}
+
+.MibboTable .sorted-desc svg{
+   transform: rotate(180deg);
+}
+
+.MibboPagination{
+    margin: .5rem 0 ;
+    padding: .5rem 0 ;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+}
+.MibboPagination-link.is-active{
+    font-weight: 900;
+}

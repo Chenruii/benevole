@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mibbo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-24 15:50+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jonathan OCHEJ <jonathan.ochej@2boandco.com>\n"
+"Language-Team: \n"
+"Language: en, English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../common.php:46
+#, php-format
+msgid "Une réalisation %1$s - Propulsé par %2$s"
+msgstr "A %1$s realization - Powered by %2$s"
+
+#: ../plugins/coming-soon/coming-soon.php:51
+msgid "est en cours de construction..."
+msgstr "is under construction..."
+
+#: ../plugins/coming-soon/coming-soon.php:79
+#, php-format
+msgid "Photos CC %1$s"
+msgstr "CC Photos %1$s"

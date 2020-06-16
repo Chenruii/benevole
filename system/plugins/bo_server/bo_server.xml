@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin engine="1.0">
+	<version>1.6</version>
+	<categorie>mibbo</categorie>
+	<title>
+		<fr>Serveur</fr>
+		<en>Server</en>
+	</title>
+	<description>
+		<fr>Toutes les informations disponibles concernant le serveur sur lequel est installé Mibbo.</fr>
+	</description>
+</plugin>

@@ -1,0 +1,16 @@
+{
+   "key":"Annonce"
+  ,"url":"Annonce"
+  ,"fields": [
+      {"key":"publishState","label":"Publication","type":"select","validators":{"mandatory": true}},
+      {"key":"title","label":"Titre du l'Annonce","type":"text","validators":["mandatory"]},
+      {"key":"slug","label":"Url","type":"text","behaviors" : {"slug": "title"}},
+      {"key":"description","label":"Description","type":"text" },
+      {"key":"dateEvent","label":"Date","type":"date" },
+      {"key":"nameOrganize","label":"Organisateur(trice)","type":"text","validators":["mandatory"]},
+      {"key":"theme","label":"Nom du thème ","type":"select","validators":["mandatory"]},
+      {"key":"phone","label":"Téléphone","type":"text","validators":["mandatory"]},
+      {"key":"email","label":"Email","type":"text","validators":["mandatory"]},
+      {"key":"photo","label":"Photo","type":"image","Width":440,"Height" :500  }
+  ]
+}

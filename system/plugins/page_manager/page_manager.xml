@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin engine="1.0">
+<version>1.1</version>
+<categorie>mibbo_website</categorie>
+<title>
+	<fr>Gestionnaire de pages</fr>
+	<en>Pages manager</en>
+</title>
+<description>
+	<fr>Gérer les différentes pages du site.</fr>
+	<en>Manage the different Pages of the website</en>
+</description>
+</plugin>

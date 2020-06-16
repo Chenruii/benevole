@@ -1,0 +1,5 @@
+[
+    {"key":"page-content","label":"Contenu","comment":"modèle pour des pages de contenu"},
+    {"key":"page-about","label":"About","comment":"modèle pour des pages de About"},
+
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin engine="1.0">
+    <version>1.0</version>
+    <categorie>website</categorie>
+    <title>
+        <fr>Gestion des comptes</fr>
+        <en>Gestion des comptes</en>
+    </title>
+    <description>
+        <fr>Gestion des comptes</fr>
+        <en>Gestion des comptes</en>
+    </description>
+</plugin>

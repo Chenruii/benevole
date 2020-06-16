@@ -1,0 +1,60 @@
+{
+   "key":"blog"
+  ,"url":"blog"
+  ,"fields": [
+     {"key":"title","label":"Titre","type":"text","validators":{"mandatory": true}}
+    ,{"key":"slug","label":"Url","type":"text","behaviors" : {"slug": "title"}}
+    ,{"key":"publishState","label":"Publication","type":"select","validators":{"mandatory": true},"source": [{"id": "1","label": "Brouillon"},{"id": "2","label": "Prêt à publier"},{"id": "3","label": "Publié"}]}
+    ,{"key":"category","label":"Catégorie","type":"select","validators":{"mandatory": true}}
+    ,{"key":"site","label":"Site","type":"select"}
+    ,{"key":"tag","label":"Tags","type":"text", "help": " liste de mots séparés par de ;"}
+    ,{"key":"date","label":"Date","type":"date","validators":{"mandatory": true}}
+    ,{"key":"year","label":"Année","type":"number", "format":"integer","behaviors" : {"copy": "date|year"}}
+    ,{"key":"summary","label":"Résumé","type":"paragraph"}
+    ,{"key":"titleParagraph1","label":"Titre Paragraphe 1 ","type":"text"}
+    ,{"key":"contentParagraph1","label":"Contenu Paragraphe 1","type":"paragraph"}
+    ,{"key":"titleParagraph2","label":"Titre Paragraphe 2 ","type":"text"}
+    ,{"key":"contentParagraph2","label":"Contenu Paragraphe 2","type":"paragraph"}
+    ,{"key":"separatorSlider","label":"Mise en avant","type":"separator"}
+    ,{"key":"visibleSlider","label":"Visible Carousel ","type":"boolean"}
+    ,{"key":"imageSlider","label":"Image slider<br>( 1600 * 600 )  ","type":"image","Width":1600,"Height" :600 }
+    ,{"key":"imageSliderMobile","label":"Image slider mobile<br>( 550 * 550 )  ","type":"image","Width":550,"Height" :550 }
+    ,{"key":"visibleHomePage","label":"Visible Accueil ","type":"boolean"}
+    ,{"key":"visibleHighLight","label":"Visible Mise en avant ","type":"boolean"}
+    ,{"key":"interviewSeparator","label":"Interview","type":"separator" }
+    ,{"key":"interviewArticle","label":"Interview","type":"boolean"}
+    ,{"key":"interviewImage","label":"Image Interview <br>( 350 * 450 )  ","type":"image","Width":350,"Height" :450 }
+    ,{"key":"interviewTitle","label":"Titre de l'interview","type":"text"}
+    ,{"key":"interviewQuestion1","label":"Question 1","type":"text"  }
+    ,{"key":"interviewResponse1","label":"Réponse 1","type":"paragraph" }
+    ,{"key":"interviewQuestion2","label":"Question 2","type":"text" }
+    ,{"key":"interviewResponse2","label":"Réponse 2","type":"paragraph" }
+    ,{"key":"interviewQuestion3","label":"Question 3","type":"text" }
+    ,{"key":"interviewResponse3","label":"Réponse 3","type":"paragraph" }
+    ,{"key":"interviewQuestion4","label":"Question 4","type":"text" }
+    ,{"key":"interviewResponse4","label":"Réponse 4","type":"paragraph" }
+    ,{"key":"interviewQuestion5","label":"Question 5","type":"text" }
+    ,{"key":"interviewResponse5","label":"Réponse 5","type":"paragraph" }
+  ,{"key":"interviewQuestion6","label":"Question 6","type":"text" }
+  ,{"key":"interviewResponse6","label":"Réponse 6","type":"paragraph" }
+  ,{"key":"interviewQuestion7","label":"Question 7","type":"text" }
+  ,{"key":"interviewResponse7","label":"Réponse 7","type":"paragraph" }
+  ,{"key":"interviewQuestion8","label":"Question 8","type":"text" }
+  ,{"key":"interviewResponse8","label":"Réponse 8","type":"paragraph" }
+  ,{"key":"interviewQuestion9","label":"Question 9","type":"text" }
+  ,{"key":"interviewResponse9","label":"Réponse 9","type":"paragraph" }
+  ,{"key":"interviewQuestion10","label":"Question 10","type":"text" }
+  ,{"key":"interviewResponse10","label":"Réponse 10","type":"paragraph" }
+    ,{"key":"separatorMedia","label":"Médias","type":"separator"}
+    ,{"key":"videoLink","label":"Lien de la vidéo","type":"text"}
+    ,{"key":"thumb","label":"Image miniature<br>( 400 * 430 ) ","type":"image","Width":400,"Height" :430}
+    ,{"key":"imagetop","label":"Image avant le  contenu ","type":"image"}
+    ,{"key":"imagetoptitle","label":"Légende  image avant le  contenu ","type":"text"}
+    ,{"key":"imagemiddle","label":"Image entre les paragraphes <br> recommandé  (900 * 600 )","type":"image"}
+    ,{"key":"imagemiddletitle","label":"Légende  image entre les paragraphes ","type":"text"}
+    ,{"key":"image","label":"Image après le  contenu  <br> recommandé  (900 * 600 )","type":"image"}
+    ,{"key":"imagetitle","label":"Légende  image après le  contenu ","type":"text"}
+    ,{"key":"slider","label":"Carrousel <br> recommandé  (900 * 600 )","type":"gallery"}
+
+  ]
+}

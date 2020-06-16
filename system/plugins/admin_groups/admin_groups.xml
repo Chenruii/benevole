@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin engine="1.0">
+	<version>1.0</version>
+	<categorie>mibbo</categorie>
+	<title>
+		<fr>Groupes</fr>
+		<en>Groups</en>
+	</title>
+	<description>
+		<fr>Gestion des groupes.</fr>
+	</description>
+</plugin>

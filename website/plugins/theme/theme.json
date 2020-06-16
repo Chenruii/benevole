@@ -1,0 +1,9 @@
+{
+   "key":"theme"
+  ,"url":"theme"
+  ,"fields": [
+     {"key":"title","label":"Nom du Thème","type":"text","validators":["mandatory"]},
+     {"key":"description","label":"Description","type":"text" },
+     {"key":"photo","label":"Photo","type":"image","Width":440,"Height" :500  }
+  ]
+}

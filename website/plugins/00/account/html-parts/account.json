@@ -1,0 +1,41 @@
+{
+  "key": "account",
+  "url": "account",
+  "fields": [
+    {
+      "key": "firstname",
+      "label": "Prénom",
+      "type": "text"
+    },
+    {
+      "key": "lastname",
+      "label": "Nom",
+      "type": "text"
+    },
+    {
+      "key": "email",
+      "label": "email",
+      "type": "text"
+    },
+    {
+      "key": "matricule",
+      "label": "Matricule",
+      "type": "text"
+    },
+    {
+      "key": "mail",
+      "label": "Notification",
+      "type": "boolean"
+    },
+    {
+      "key": "news",
+      "label": "Newsletter",
+      "type": "boolean"
+    } ,
+    {
+      "key": "desactivated",
+      "label": "Désactivé",
+      "type": "boolean"
+    }
+  ]
+}

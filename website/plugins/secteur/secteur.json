@@ -1,0 +1,13 @@
+{
+   "key":"secteur"
+  ,"url":"secteur"
+  ,"fields": [
+    {"key":"title","label":"Nom du Secteur","type":"text","validators":["mandatory"]},
+    {"key":"slug","label":"Url","type":"text","behaviors" : {"slug": "title"}},
+    {"key":"district","label":"Quartier","type":"text" },
+    {"key":"num","label":"n°","type":"text" },
+    {"key":"street","label":"Rue","type":"text" },
+    {"key":"city","label":"Ville","type":"text" },
+    {"key":"zipCode","label":"Code Postale","type":"text" }
+  ]
+}

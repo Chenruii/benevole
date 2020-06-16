@@ -1,0 +1,68 @@
+.admin {
+	overflow: hidden !important;
+}
+#logo {
+	margin-top: 50px;
+	text-align: center;
+}
+#login {
+	width: 650px;
+	margin: 50px auto;
+	margin-bottom: 0;
+	border: 1px solid #aaa;
+}
+#login h1 {
+	font-size: 1.3em;
+	font-weight: bold;
+	border-bottom: 1px solid #aaa;
+	padding: 7px 10px;
+	color: #555;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+}
+#login h1 span {
+	background: url('{{tpl:MIB_PLUGIN}}/img/lock.png') left center no-repeat;
+	padding-left: 24px;
+}
+#login #inlogin {
+	border-width: 1px;
+	padding: 5px;
+}
+#login .message {
+	margin-bottom: 5px;
+	border: none;
+}
+#login .message p {
+	padding: 5px 0px;
+}
+#login .user_agent {
+	margin: 7px 0px 0px 0px;
+	font-size: 0.8em;
+	text-align: center;
+	color: #999;
+}
+#login .label {
+	display: block;
+	float:left;
+	width:260px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: right;
+}
+#login .input_label {
+	display: block;
+	float:right;
+	width:370px;
+	padding: 5px 0px;
+}
+#login .input {
+	width: 180px;
+	padding: 3px 2px;
+	font-size: 1em;
+}
+#login .button {
+	padding: 3px 10px 3px 5px;
+}
+#login .button span {
+	background: url('{{tpl:MIB_PLUGIN}}/img/key.png') left center no-repeat;
+	padding-left: 20px;
+}

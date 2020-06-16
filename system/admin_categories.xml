@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<categories engine="1.0">
+
+	<categorie uid="mibbo" position="0">
+		<title>
+			<fr>Mibbo</fr>
+			<en>Mibbo</en>
+		</title>
+		<description>
+			<fr>Configurations générales et administration de Mibbo.</fr>
+			<en>Configurations générales et administration de Mibbo.</en>
+		</description>
+	</categorie>
+
+	<categorie uid="mibbo_website" position="1">
+		<title>
+			<fr>Site Internet</fr>
+			<en>Site Internet</en>
+		</title>
+		<description>
+			<fr>Outils disponibles pour administrer le site Internet.</fr>
+			<en>Outils disponibles pour administrer le site Internet.</en>
+		</description>
+	</categorie>
+
+	<categorie uid="website" position="2">
+		<title>
+			<fr>{{tpl:MIBconfig site_title}}</fr>
+			<en>{{tpl:MIBconfig site_title}}</en>
+		</title>
+		<description>
+			<fr>Plugins spécifiques à {{tpl:MIBconfig site_title}}.</fr>
+			<en>Plugins spécifiques à {{tpl:MIBconfig site_title}}.</en>
+		</description>
+	</categorie>
+
+	<categorie uid="hidden" position="999">
+		<title>
+			<fr>Plugins Invisibles</fr>
+			<en>Hidden Plugins</en>
+		</title>
+		<description>
+			<fr>Plugins invisibles qui n'apparaissent pas dans la barre de navigation de l'administration.</fr>
+			<en>Plugins invisibles qui n'apparaissent pas dans la barre de navigation de l'administration.</en>
+		</description>
+	</categorie>
+</categories>

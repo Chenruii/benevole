@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<plugin engine="1.0">
+    <version>1.0</version>
+    <categorie>website</categorie>
+    <title>
+        <fr>Secteur</fr>
+        <en>Secteur</en>
+    </title>
+    <description>
+        <fr>Secteur</fr>
+        <en>Secteur</en>
+    </description>
+</plugin>

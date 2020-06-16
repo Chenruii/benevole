@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mibbo\n"
+"Last-Translator: Jonathan OCHEJ <jonathan.ochej@2boandco.com>\n"
+"Language: en, English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Y-m-d"
+msgstr "m/d/Y"
+
+msgid "H:i"
+msgstr "H:i"
+
+msgid "Jamais"
+msgstr "Never"
+
+msgid "Aujourd'hui"
+msgstr "Today"
+
+msgid "Hier"
+msgstr "Yesterday"
+
+msgid "Year"
+msgstr "Year"
+
+msgid "Years"
+msgstr "Years"
+
+msgid "Month"
+msgstr "Month"
+
+msgid "Months"
+msgstr "Months"
+
+msgid "Week"
+msgstr "Week"
+
+msgid "Weeks"
+msgstr "Weeks"
+
+msgid "Day"
+msgstr "Day"
+
+msgid "Days"
+msgstr "Days"
+
+msgid "Hour"
+msgstr "Hour"
+
+msgid "Hours"
+msgstr "Hours"
+
+msgid "Minute"
+msgstr "Minute"
+
+msgid "Minutes"
+msgstr "Minutes"
+
+msgid "Second"
+msgstr "Second"
+
+msgid "Seconds"
+msgstr "Seconds"
+
+msgid "January"
+msgstr "January"
+
+msgid "February"
+msgstr "February"
+
+msgid "March"
+msgstr "March"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "May"
+
+msgid "June"
+msgstr "June"
+
+msgid "July"
+msgstr "July"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "October"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "December"
+
+msgid "Monday"
+msgstr "Monday"
+
+msgid "Tuesday"
+msgstr "Tuesday"
+
+msgid "Wednesday"
+msgstr "Wednesday"
+
+msgid "Thursday"
+msgstr "Thursday"
+
+msgid "Friday"
+msgstr "Friday"
+
+msgid "Saturday"
+msgstr "Saturday"
+
+msgid "Sunday"
+msgstr "Sunday"

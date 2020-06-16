@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<plugin engine="1.0">
+    <version>1.0</version>
+    <categorie>website</categorie>
+    <title>
+        <fr>Formulaire de contact</fr>
+        <en>Formulaire de contact </en>
+    </title>
+    <description>
+        <fr>Formulaire de contact</fr>
+        <en>Formulaire de contact</en>
+    </description>
+</plugin>

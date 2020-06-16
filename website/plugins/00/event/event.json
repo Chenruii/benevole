@@ -1,0 +1,19 @@
+{
+  "key": "event",
+  "url": "event",
+  "fields": [
+    {"key": "title","label": "Titre","type": "text"},
+    {"key": "eventDate","label": "Date Evènement","type": "date"},
+    {"key": "summaryFR","label": "Résumé - page Evenement (fr)", "type": "paragraph"},
+    {"key": "summaryEN","label": "Résumé - page Evenement (en)", "type": "paragraph"},
+    {"key": "summaryIT", "label": "Résumé - page Evenement (it)", "type": "paragraph"},
+    {"key": "summaryNL", "label": "Résumé - page Evenement (nl)", "type": "paragraph"},
+    {"key":"descriptionFR","label":"description (fr) ","type":"paragraph"},
+    {"key":"descriptionEN","label":"description (en) ","type":"paragraph"},
+    {"key":"descriptionIT","label":"description (it) ","type":"paragraph"},
+    {"key":"descriptionNL","label":"description (nl) ","type":"paragraph"},
+    {"key": "imagelist","label": "Image liste ","type": "image", "width": 480,"height": 320},
+    {"key":"slider","label":"Slider (Desktop)","type":"gallery"},
+    {"key":"imageSliderMobile","label":"Slider (Mobile)","type":"gallery"}
+  ]
+}

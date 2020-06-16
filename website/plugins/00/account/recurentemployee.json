@@ -1,0 +1,38 @@
+{
+  "key": "recurentemployee",
+  "url": "account/recurent",
+  "fields": [
+    {
+      "key": "firstname",
+      "label": "Nom",
+      "type": "text",
+      "validators": {
+        "mandatory": true
+      }
+    },
+    {
+      "key": "lastname",
+      "label": "Prénom",
+      "type": "text",
+      "validators": {
+        "mandatory": true
+      }
+    },
+    {
+      "key": "birthdate",
+      "label": "Date de naissance",
+      "type": "date",
+      "validators": {
+        "mandatory": true
+      }
+    },
+    {
+      "key": "matricule",
+      "label": "Matricule",
+      "type": "text",
+      "validators": {
+        "mandatory": true
+      }
+    }
+  ]
+}
