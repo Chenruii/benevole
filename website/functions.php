@@ -1,7 +1,7 @@
 <?php
 
 /*---
-
+z
 	Copyright (c) 2010-2014 Mibbo, http://mibbo.net
 	
 	This file is part of the Mibbo package which is subject to an opensource
@@ -29,13 +29,18 @@ function siteGetTopMenu($lang){
             'label' => __('Annonces'),
         ),
         array(
+            'href' => 'about',
+            'label' =>__('About'),
+        ),
+        array(
+            'href' => 'association',
+            'label' =>__('Offre'),
+        ),
+        array(
             'href' => 'contact',
             'label' => __('Contactez-nous'),
         ),
-        array(
-            'href' => 'page4',
-            'label' =>__('Page 4'),
-        ),
+       
     );
     return $links;
 }
